@@ -13,7 +13,9 @@ $p-small:12px;
 
 /*colores*/
 $botones:#e2332d;
-
+.btn{
+    outline:none;
+}
 ul,ol{list-style:none;padding:0;margin:0;}
 .flex{display:flex;}
 .input{

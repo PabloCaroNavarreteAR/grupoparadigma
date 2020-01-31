@@ -2,6 +2,10 @@
 /*colores*/
 /*tamaños de titulos*/
 /*colores*/
+.btn {
+  outline: none;
+}
+
 ul, ol {
   list-style: none;
   padding: 0;
