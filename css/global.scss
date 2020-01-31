@@ -1,0 +1,53 @@
+/*colores*/
+$gray: #333333;
+$bg-gray:#EBEBEB;
+$buttonbg:#e2332d;
+$blueaseo:#5160bf;
+
+/*tamaños de titulos*/
+$h1: 40px;
+$p-slide:16px;
+$p-bigger:18px;
+$p-normal:14px;
+$p-small:12px;
+
+/*colores*/
+$botones:#e2332d;
+
+ul,ol{list-style:none;padding:0;margin:0;}
+.flex{display:flex;}
+.input{
+    border:1px solid #999999;
+    border-radius:5px;
+    padding:10px;
+    background:transparent;
+}
+textarea{resize:none;}
+.btn-gradiente{
+    background: rgba(54,167,224,1);
+    background: -moz-linear-gradient(left, rgba(54,167,224,1) 0%, rgba(131,55,140,1) 51%, rgba(233,95,49,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(54,167,224,1)), color-stop(51%, rgba(131,55,140,1)), color-stop(100%, rgba(233,95,49,1)));
+    background: -webkit-linear-gradient(left, rgba(54,167,224,1) 0%, rgba(131,55,140,1) 51%, rgba(233,95,49,1) 100%);
+    background: -o-linear-gradient(left, rgba(54,167,224,1) 0%, rgba(131,55,140,1) 51%, rgba(233,95,49,1) 100%);
+    background: -ms-linear-gradient(left, rgba(54,167,224,1) 0%, rgba(131,55,140,1) 51%, rgba(233,95,49,1) 100%);
+    background: linear-gradient(to right, rgba(54,167,224,1) 0%, rgba(131,55,140,1) 51%, rgba(233,95,49,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36a7e0', endColorstr='#e95f31', GradientType=1 );
+    color:white;
+    border-radius:10px;
+    border:none;
+    transition:.2s ease-in-out;
+    &:focus{
+        outline:none;
+    }
+    &:hover{
+        color:white;
+        opacity:0.95;
+    }
+}
+
+
+
+.g-recaptcha{
+    width:300px;
+    margin:auto;
+}

@@ -1,0 +1,999 @@
+/*colores*/
+/*responsive*/
+@media screen and (max-width: 1366px) {
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 50px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px;
+    height: auto;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: -50px;
+  }
+  .main .team {
+    min-height: 500px;
+    background-size: auto;
+    background-position: -260px -260px;
+    padding-top: 40px;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+  }
+  .main .team .container .flex .item-team {
+    width: 150px;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav .menu .navbar .navbar-brand {
+    width: 200px;
+    background-size: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 450px;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 10px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px !important;
+    height: auto !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex .hold {
+    height: 200px;
+  }
+  .main .team {
+    min-height: 500px;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+  }
+  .main .team .container .flex .item-team {
+    width: 150px;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .topMenu {
+    display: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler .navbar-toggler-icon {
+    background: url("../img/menu-dark.svg");
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-brand {
+    width: 150px;
+    background-size: 100%;
+    height: 40px;
+  }
+  .nav .menu .navbar .navbar-collapse {
+    background: white;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a {
+    color: #333333;
+    font-size: 13px;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a:hover {
+    background: #EBEBEB;
+  }
+  .nav .menu .navbar .navbar-collapse ul li .dropdown-menu {
+    border: none;
+  }
+  .main .carousel {
+    padding-top: 0px;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 450px;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 10px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 100px !important;
+    height: auto !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex .hold {
+    height: 150px;
+  }
+  .main .container .about {
+    margin-bottom: 5vh;
+  }
+  .main .container .about .flex .image {
+    overflow: hidden;
+    text-align: center;
+  }
+  .main .container .about .flex .image img {
+    width: auto !important;
+    height: 100% !important;
+    margin: auto;
+    display: block;
+  }
+  .main .container .about .flex .description {
+    padding: 10px;
+  }
+  .main .container .about .flex .description a.btn-inst {
+    width: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item {
+    height: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item .flex .item a img {
+    width: 150px !important;
+    height: auto;
+  }
+  .main .team {
+    min-height: 500px;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+  }
+  .main .team .container .flex .item-team {
+    width: 100px;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 100px;
+  }
+  .main .team .container .flex .item-team .avatar .linkedin {
+    right: 0px;
+    bottom: 0px;
+  }
+  .main .contacto .container .contactinfo .flex .item-info {
+    margin: 5px;
+    width: 150px;
+  }
+  .main .contacto .container .contactinfo .flex .item-info:first-child {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topMenu {
+    display: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler .navbar-toggler-icon {
+    background: url("../img/menu-dark.svg");
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-brand {
+    width: 150px;
+    background-size: 100%;
+    height: 40px;
+  }
+  .nav .menu .navbar .navbar-collapse {
+    background: white;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a {
+    color: #333333;
+    font-size: 13px;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a:hover {
+    background: #EBEBEB;
+  }
+  .nav .menu .navbar .navbar-collapse ul li .dropdown-menu {
+    border: none;
+  }
+  .main .carousel {
+    padding-top: 0px;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 450px;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 10px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 100px !important;
+    height: auto !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex .hold {
+    height: 150px;
+  }
+  .main .container .about {
+    margin-bottom: 5vh;
+  }
+  .main .container .about .flex .image {
+    overflow: hidden;
+    text-align: center;
+  }
+  .main .container .about .flex .image img {
+    width: auto !important;
+    height: 100% !important;
+    margin: auto;
+    display: block;
+  }
+  .main .container .about .flex .description {
+    padding: 10px;
+  }
+  .main .container .about .flex .description a.btn-inst {
+    width: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item {
+    height: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item .flex .item a img {
+    width: 150px !important;
+    height: auto;
+  }
+  .main .team {
+    min-height: 500px;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+  }
+  .main .team .container .flex .item-team {
+    width: 100px;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 100px;
+  }
+  .main .team .container .flex .item-team .avatar .linkedin {
+    right: 0px;
+    bottom: 0px;
+  }
+  .main .contacto .container .contactinfo .flex .item-info {
+    margin: 5px;
+    width: 150px;
+  }
+  .main .contacto .container .contactinfo .flex .item-info:first-child {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .topMenu {
+    display: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler .navbar-toggler-icon {
+    background: url("../img/menu-dark.svg");
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-collapse {
+    background: white;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a {
+    color: #333333;
+    font-size: 13px;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a:hover {
+    background: #EBEBEB;
+  }
+  .nav .menu .navbar .navbar-collapse ul li .dropdown-menu {
+    border: none;
+  }
+  .main .carousel {
+    padding-top: 0px;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 80vh;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 80px;
+    left: 5%;
+    right: 5%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex {
+    display: block;
+  }
+  .main .container .holding .flex:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .main .container .holding .flex .hold {
+    width: 167px;
+    margin: 0;
+    display: inline-block;
+  }
+  .main .container .holding .flex .hold:nth-child(odd) {
+    margin-right: 5px;
+  }
+  .main .container .holding .flex .hold:last-child {
+    width: 100%;
+  }
+  .main .container .about {
+    margin-bottom: 5vh;
+  }
+  .main .container .about .flex .image {
+    overflow: hidden;
+    text-align: center;
+  }
+  .main .container .about .flex .image img {
+    width: auto !important;
+    height: 100% !important;
+    margin: auto;
+    display: block;
+  }
+  .main .container .about .flex .description {
+    padding: 10px;
+  }
+  .main .container .about .flex .description a.btn-inst {
+    width: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item {
+    height: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item .flex .item a img {
+    width: 150px !important;
+    height: auto;
+  }
+  .main .team {
+    min-height: initial !important;
+    background-position: 0px 0px;
+    background-size: auto 100%;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+    display: block;
+  }
+  .main .team .container .flex .item-team {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 150px;
+    height: 150;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .linkedin {
+    right: 0px;
+    bottom: 0px;
+  }
+  .main .contacto .container .contactinfo .flex {
+    display: block;
+  }
+  .main .contacto .container .contactinfo .flex .item-info {
+    margin: 5px;
+    width: 100%;
+  }
+  .main .contacto .container .contactinfo .flex .item-info:first-child {
+    width: 100%;
+  }
+  .main footer .container .row .left .flex {
+    display: block;
+  }
+  .main footer .container .row .left .flex .item-foot {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .main footer .container .row .right {
+    text-align: center;
+  }
+  .main footer .container .row .right img {
+    width: 180px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .topMenu {
+    display: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler .navbar-toggler-icon {
+    background: url("../img/menu-dark.svg");
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-collapse {
+    background: white;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a {
+    color: #333333;
+    font-size: 13px;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a:hover {
+    background: #EBEBEB;
+  }
+  .nav .menu .navbar .navbar-collapse ul li .dropdown-menu {
+    border: none;
+  }
+  .main .carousel {
+    padding-top: 0px;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 80vh;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 80px;
+    left: 5%;
+    right: 5%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex {
+    display: block;
+  }
+  .main .container .holding .flex:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .main .container .holding .flex .hold {
+    width: 167px;
+    margin: 0;
+    display: inline-block;
+  }
+  .main .container .holding .flex .hold:nth-child(odd) {
+    margin-right: 5px;
+  }
+  .main .container .holding .flex .hold:last-child {
+    width: 100%;
+  }
+  .main .container .about {
+    margin-bottom: 5vh;
+  }
+  .main .container .about .flex .image {
+    overflow: hidden;
+    text-align: center;
+  }
+  .main .container .about .flex .image img {
+    width: auto !important;
+    height: 100% !important;
+    margin: auto;
+    display: block;
+  }
+  .main .container .about .flex .description {
+    padding: 10px;
+  }
+  .main .container .about .flex .description a.btn-inst {
+    width: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item {
+    height: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item .flex .item a img {
+    width: 150px !important;
+    height: auto;
+  }
+  .main .team {
+    min-height: initial !important;
+    background-position: 0px 0px;
+    background-size: auto 100%;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+    display: block;
+  }
+  .main .team .container .flex .item-team {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 150px;
+    height: 150;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .linkedin {
+    right: 0px;
+    bottom: 0px;
+  }
+  .main .contacto .container .contactinfo .flex {
+    display: block;
+  }
+  .main .contacto .container .contactinfo .flex .item-info {
+    margin: 5px;
+    width: 100%;
+  }
+  .main .contacto .container .contactinfo .flex .item-info:first-child {
+    width: 100%;
+  }
+  .main footer .container .row .left .flex {
+    display: block;
+  }
+  .main footer .container .row .left .flex .item-foot {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .main footer .container .row .right {
+    text-align: center;
+  }
+  .main footer .container .row .right img {
+    width: 180px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .topMenu {
+    display: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler .navbar-toggler-icon {
+    background: url("../img/menu-dark.svg");
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-collapse {
+    background: white;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a {
+    color: #333333;
+    font-size: 13px;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a:hover {
+    background: #EBEBEB;
+  }
+  .nav .menu .navbar .navbar-collapse ul li .dropdown-menu {
+    border: none;
+  }
+  .main .carousel {
+    padding-top: 0px;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 80vh;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 40px;
+    left: 5%;
+    right: 5%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex .hold {
+    height: 150px;
+  }
+  .main .container .about {
+    margin-bottom: 5vh;
+  }
+  .main .container .about .flex .image {
+    overflow: hidden;
+    text-align: center;
+  }
+  .main .container .about .flex .image img {
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto;
+    display: block;
+  }
+  .main .container .about .flex .description {
+    padding: 10px;
+  }
+  .main .container .about .flex .description a.btn-inst {
+    width: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item {
+    height: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item .flex .item a img {
+    width: 150px !important;
+    height: auto;
+  }
+  .main .team {
+    min-height: 500px;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+  }
+  .main .team .container .flex .item-team {
+    width: 80%;
+    margin: auto;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 250px;
+  }
+  .main .team .container .flex .item-team .avatar .linkedin {
+    right: 20px;
+    bottom: 20px;
+  }
+  .main .contacto .container .contactinfo .flex .item-info {
+    margin: 5px;
+    width: 100%;
+  }
+  .main .contacto .container .contactinfo .flex .item-info:first-child {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main .container .holding .flex .hold {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .main .container .holding .flex .hold {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topMenu {
+    display: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler .navbar-toggler-icon {
+    background: url("../img/menu-dark.svg");
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  .nav .menu.bg-light .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-brand {
+    width: 120px;
+    background-size: 100%;
+    height: 30px;
+  }
+  .nav .menu .navbar .navbar-collapse {
+    background: white;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a {
+    color: #333333;
+    font-size: 13px;
+  }
+  .nav .menu .navbar .navbar-collapse ul li a:hover {
+    background: #EBEBEB;
+  }
+  .nav .menu .navbar .navbar-collapse ul li .dropdown-menu {
+    border: none;
+  }
+  .main .carousel {
+    padding-top: 0px;
+  }
+  .main .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+  }
+  .main .carousel .carousel-inner .carousel-item img {
+    width: auto !important;
+    height: 100%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 40px;
+    left: 5%;
+    right: 5%;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption img {
+    width: 150px !important;
+  }
+  .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
+    margin-top: 10px;
+  }
+  .main .container .holding {
+    margin-top: 0px;
+  }
+  .main .container .holding .flex {
+    display: block;
+  }
+  .main .container .holding .flex .hold {
+    width: 45%;
+    display: inline-block;
+    margin: 0px;
+  }
+  .main .container .holding .flex .hold:last-child(odd) {
+    margin-right: 22px;
+  }
+  .main .container .holding .flex .hold:last-child {
+    width: 100%;
+  }
+  .main .container .about {
+    margin-bottom: 5vh;
+  }
+  .main .container .about .flex .image {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    margin-right: 15px;
+  }
+  .main .container .about .flex .image img {
+    width: auto !important;
+    height: 100% !important;
+    margin: auto;
+    display: block;
+  }
+  .main .container .about .flex .description {
+    padding: 10px;
+  }
+  .main .container .about .flex .description a.btn-inst {
+    width: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item {
+    height: 150px;
+  }
+  .main .container .customers #customers-carousel .carousel-inner .carousel-item .flex .item a img {
+    width: 150px !important;
+    height: auto;
+  }
+  .main .team {
+    min-height: 500px;
+  }
+  .main .team .container h3 {
+    margin-top: 10px;
+  }
+  .main .team .container .flex {
+    margin-top: 50px;
+  }
+  .main .team .container .flex .item-team {
+    width: 80%;
+    margin: auto;
+  }
+  .main .team .container .flex .item-team .avatar {
+    width: 100%;
+  }
+  .main .team .container .flex .item-team .avatar .image {
+    width: 100%;
+    height: 250px;
+  }
+  .main .team .container .flex .item-team .avatar .linkedin {
+    right: 20px;
+    bottom: 20px;
+  }
+  .main .contacto .container .contactinfo .flex .item-info {
+    margin: 5px;
+    width: 100%;
+  }
+  .main .contacto .container .contactinfo .flex .item-info:first-child {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
