@@ -41,7 +41,7 @@
             <div class="container">
                 <?php include('includes/theme/about/about.php');?>
             </div>
-            <?php include('includes/theme/team.php');?>
+            <?php //include('includes/theme/team.php');?>
         <?php include('includes/theme/contacto.php');?>
             <?php include('includes/theme/footer.php');?>
         </div>

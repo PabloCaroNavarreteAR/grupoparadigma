@@ -6,19 +6,19 @@
                 <div class="item-info">
                     <div class="inner">
                         <span class="spriteContacto mail"></span>
-                        <a href="mailto:contacto@grparadigma.com">contacto@grparadigma.com</a>
+                        <a href="mailto:<?php echo $mail;?>"><?php echo $mail;?></a>
                     </div>
                 </div>
                 <div class="item-info">
                     <div class="inner">
                         <span class="spriteContacto location"></span>
-                        <span>Juramento 1475 Piso: 8º Oficina 5</span>
+                        <span><?php echo $location;?></span>
                     </div>
                 </div>
                 <div class="item-info">
                     <div class="inner">
                         <span class="spriteContacto phone"></span>
-                        <a href="tel:5551234">555-1234</a>
+                        <a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
                     </div>
                 </div>
             </div>

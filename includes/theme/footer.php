@@ -15,9 +15,9 @@
                     <div class="item-foot">
                         <p>Lorem impsum</p>
                         <ul>
-                            <li><span class="spriteFooter location"></span>lorem impsum</li>
-                            <li><a href="#"><span class="spriteFooter mail"></span>contacto@grparadigma.com</a></li>
-                            <li><a href="#"><span class="spriteFooter phone"></span>555-1234</a></li>
+                            <li><span class="spriteFooter location"></span><?php echo $location;?></li>
+                            <li><a href="#"><span class="spriteFooter mail"></span><?php echo $mail;?></a></li>
+                            <li><a href="#"><span class="spriteFooter phone"></span><?php echo $phone;?></a></li>
                         </ul>
                     </div>
                 </div>

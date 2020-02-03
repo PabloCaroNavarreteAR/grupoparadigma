@@ -33,7 +33,7 @@
         <div class="main">
             <?php include('includes/theme/slide.php');?>
             <div class="container">
-                <?php include('includes/theme/holding.php');?>
+                <?php //include('includes/theme/holding.php');?>
                 <?php include('includes/theme/about.php');?>
             </div>
             <?php include('includes/theme/team.php');?>

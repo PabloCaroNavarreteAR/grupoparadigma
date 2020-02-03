@@ -1,16 +1,21 @@
+<?php
+    $phone='+549 11 3988 4980';
+    $location='Juramento 1475, Piso 8 - Oficina 5';
+    $mail='contacto@grparadigma.com';
+?>
 <div class="nav">
             <div class="topMenu">
                 <div class="container">
                     <div class="flex">
                         <div class="leftTop">
                             <ul>
-                                <li><span class="spriteTop mail"></span> contacto@grparadigma.com</li>
+                                <li><span class="spriteTop mail"></span> <?php echo $mail;?></li>
                             </ul>
                         </div>
                         <div class="rightTop">
                             <ul>
-                                <li><span class="spriteTop phone"></span> 555-1234</li>
-                                <li><span class="spriteTop location"></span> Av. Libertador 1234 CP: 1234</li>
+                                <li><span class="spriteTop phone"></span> <?php echo $phone;?></li>
+                                <li><span class="spriteTop location"></span> <?php echo $location;?></li>
                             </ul>
                         </div>
                     </div>
@@ -34,21 +39,16 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                            <a class="nav-link" href="#">Sobre nosotros</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Team work</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
                             </li>
                         </ul>
                         <?php else:?>
