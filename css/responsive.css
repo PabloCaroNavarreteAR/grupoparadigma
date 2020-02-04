@@ -2,7 +2,7 @@
 /*responsive*/
 @media screen and (max-width: 1366px) {
   .main .carousel .carousel-inner .carousel-item .carousel-caption {
-    top: 50px;
+    top: 75px;
   }
   .main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
     font-size: 30px;
@@ -57,7 +57,7 @@
     height: 100%;
   }
   .main .carousel .carousel-inner .carousel-item .carousel-caption {
-    top: 10px;
+    top: 30px;
   }
   .main .carousel .carousel-inner .carousel-item .carousel-caption a.btn-inst {
     width: 200px;
@@ -81,6 +81,9 @@
     margin-top: 0px;
   }
   .main .container .holding .flex .hold {
+    height: 200px;
+  }
+  .main .container .customers .carousel .carousel-inner .carousel-item {
     height: 200px;
   }
   .main .team {
@@ -236,6 +239,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .intro .inner {
+    padding: 0;
+  }
+  .intro .inner video {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    height: 100vh;
+  }
   .topMenu {
     display: none;
   }

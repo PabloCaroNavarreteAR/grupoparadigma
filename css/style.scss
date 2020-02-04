@@ -9,6 +9,11 @@
     color:white;
     border-radius:20px;
 }
+.btn-linkedin{
+    background-color:#006699;
+    color:white;
+    border-radius:20px;
+}
 
 /*fonts*/
 strong{font-weight:600;}
@@ -37,18 +42,18 @@ strong{font-weight:600;}
                         display:inline-block;
                         color:white;
                         margin-right:5px;
-                        font-size:$p-normal;
+                        font-size:$p-small;
                         span.spriteTop{
                             display:inline-block;
                             vertical-align:middle;
                             width:20px;
-                            height:20px;
+                            height:23px;
                             background-image:url('../img/menuTop/sprite-top.png');
                             background-repeat:no-repeat;
                             margin-right:5px;
                         }
                         span.mail{
-                            background-position:center -10px;
+                            background-position:center -7px;
                         }
                         span.phone{
                             background-position:center -37px;
@@ -150,6 +155,11 @@ strong{font-weight:600;}
 
 /*main*/
 .main{
+    background: url('../img/contacto/bg-contacto.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: fixed;
     /* about */
     .innerbanner{
         height:350px;
@@ -230,7 +240,7 @@ strong{font-weight:600;}
         background-repeat:no-repeat;
         background-position:center center;
         padding:20px;
-        min-height:750px;
+        min-height:650px;
         .container{
             h3{
                 margin-top:5vh;
@@ -243,6 +253,7 @@ strong{font-weight:600;}
                 margin-bottom:10vh;
                 justify-content: space-between;
                 .item-team{
+                    cursor:pointer;
                     width:300px;
                     text-align:center;
                     .avatar{
@@ -565,7 +576,7 @@ strong{font-weight:600;}
         }
     }
 }
-.modal{
+.modal.status{
     background: rgba(0,0,0,0.5);
     display:block;
     text-align:center;
@@ -584,6 +595,121 @@ strong{font-weight:600;}
         .image{
             padding-left:0px;
             padding-right:0px;
+        }
+    }
+}
+
+//intro
+.intro{
+    position:fixed;
+    width:100vw;
+    z-index:666;
+    height:100%;
+    background:#fafafa;
+    top:0;
+    left:0;
+    right:0;
+    .playButton{
+        cursor:pointer;
+        position: absolute;
+        top: 40vh;
+        width: 100px;
+        height: 100px;
+        background-image: url('../img/playButton.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 40%;
+        right: 40%;
+        display: block;
+        margin: auto;
+    }
+    .closeButton{
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        background-image: url('../img/close.png');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        right: 20px;
+        display: block;
+        margin: auto;
+    }
+    .inner{
+        padding:20px;
+        margin:auto;
+        transition:.5s ease-in-out;
+        video{
+            width:auto;
+            height:90vh;
+            display:block;
+            margin:auto;
+            padding:10px;
+            border-radius:20px;
+            overflow: hidden;
+            &:focus{
+                outline:none;
+            }
+
+        }
+    }
+}
+
+/* bio modal*/
+.bioModal{
+    .modal-dialog{
+        max-width:75vw;
+        padding-bottom:20px;
+        .modal-header{
+            border-bottom:none;
+            padding:20px;
+            position:absolute;
+            right:0px;
+            z-index:1;
+            .close{
+                padding:10px;
+            }
+        }
+        .modal-body{
+            .flex{
+                justify-content: center;
+                    .image{
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 100%;
+                        overflow: hidden;
+                        img{
+                            width:100%;
+                            height:auto;
+                        }
+                    }
+                    .data{ 
+                        width:70%;
+                        padding:10px 20px;
+                        p{
+                            margin-bottom:0px;
+                        }
+                        a{
+                            margin-top:20px;
+                            font-size:12px;
+                            line-height: 20px;
+                            .linkedin{
+                                display: inline-block;
+                                width: 25px;
+                                height: 20px;
+                                vertical-align: top;
+                                background: url(../img/team/linkedin.png) no-repeat center center;
+                                background-size: cover;
+                            }
+                        }
+                        p.small{
+                            font-size:13px;
+                        }
+                    }
+            }
         }
     }
 }

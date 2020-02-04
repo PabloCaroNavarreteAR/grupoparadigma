@@ -16,7 +16,7 @@ $blueaseo:#5160bf;
             .carousel-inner{
                 .carousel-item{
                     .carousel-caption{
-                        top:50px;
+                        top:75px;
                         h1{
                             font-size:$h1;
                         }
@@ -91,7 +91,7 @@ $blueaseo:#5160bf;
                         height:100%;
                     }
                     .carousel-caption{
-                        top:10px;
+                        top:30px;
                         a.btn-inst{
                             width:200px;
                             margin-top:10px;
@@ -120,6 +120,15 @@ $blueaseo:#5160bf;
                 .flex{
                     .hold{
                         height:200px;
+                    }
+                }
+            }
+            .customers{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            height:200px;
+                        }
                     }
                 }
             }
@@ -329,6 +338,18 @@ $blueaseo:#5160bf;
     $p-bigger:16px;
     $p-normal:13px;
     $p-small:12px;
+
+    .intro{
+        .inner{
+            padding:0;
+            video{
+                width: 100%;
+                margin: auto;
+                padding:0;
+                height: 100vh;
+            }
+        }
+    }
     .topMenu{display:none;}
     .nav{
         .menu.bg-light{

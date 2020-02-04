@@ -1,5 +1,8 @@
 <div class="contacto">
     <div class="container">
+        <?php include('includes/theme/customers.php');?>
+    </div>
+    <div class="container">
         <div class="contactinfo">
             <h5>Información de contacto</h5>
             <div class="flex">

@@ -68,6 +68,12 @@ textarea {
   border-radius: 20px;
 }
 
+.btn-linkedin {
+  background-color: #006699;
+  color: white;
+  border-radius: 20px;
+}
+
 /*fonts*/
 strong {
   font-weight: 600;
@@ -97,21 +103,21 @@ strong {
   display: inline-block;
   color: white;
   margin-right: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .topMenu .container .flex div ul li span.spriteTop {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
-  height: 20px;
+  height: 23px;
   background-image: url("../img/menuTop/sprite-top.png");
   background-repeat: no-repeat;
   margin-right: 5px;
 }
 
 .topMenu .container .flex div ul li span.mail {
-  background-position: center -10px;
+  background-position: center -7px;
 }
 
 .topMenu .container .flex div ul li span.phone {
@@ -219,6 +225,11 @@ strong {
 
 /*main*/
 .main {
+  background: url("../img/contacto/bg-contacto.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  background-attachment: fixed;
   /* about */
 }
 
@@ -306,7 +317,7 @@ strong {
   background-repeat: no-repeat;
   background-position: center center;
   padding: 20px;
-  min-height: 750px;
+  min-height: 650px;
 }
 
 .main .team .container h3 {
@@ -325,6 +336,7 @@ strong {
 }
 
 .main .team .container .flex .item-team {
+  cursor: pointer;
   width: 300px;
   text-align: center;
 }
@@ -682,13 +694,13 @@ strong {
   background: url("../img/footer/brand.png") no-repeat center center;
 }
 
-.modal {
+.modal.status {
   background: rgba(0, 0, 0, 0.5);
   display: block;
   text-align: center;
 }
 
-.modal .modal-header {
+.modal.status .modal-header {
   border-bottom: none;
 }
 
@@ -700,5 +712,132 @@ strong {
 .about-page .about .image {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.intro {
+  position: fixed;
+  width: 100vw;
+  z-index: 666;
+  height: 100%;
+  background: #fafafa;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.intro .playButton {
+  cursor: pointer;
+  position: absolute;
+  top: 40vh;
+  width: 100px;
+  height: 100px;
+  background-image: url("../img/playButton.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 40%;
+  right: 40%;
+  display: block;
+  margin: auto;
+}
+
+.intro .closeButton {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/close.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  right: 20px;
+  display: block;
+  margin: auto;
+}
+
+.intro .inner {
+  padding: 20px;
+  margin: auto;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.intro .inner video {
+  width: auto;
+  height: 90vh;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.intro .inner video:focus {
+  outline: none;
+}
+
+/* bio modal*/
+.bioModal .modal-dialog {
+  max-width: 75vw;
+  padding-bottom: 20px;
+}
+
+.bioModal .modal-dialog .modal-header {
+  border-bottom: none;
+  padding: 20px;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+
+.bioModal .modal-dialog .modal-header .close {
+  padding: 10px;
+}
+
+.bioModal .modal-dialog .modal-body .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bioModal .modal-dialog .modal-body .flex .image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.bioModal .modal-dialog .modal-body .flex .image img {
+  width: 100%;
+  height: auto;
+}
+
+.bioModal .modal-dialog .modal-body .flex .data {
+  width: 70%;
+  padding: 10px 20px;
+}
+
+.bioModal .modal-dialog .modal-body .flex .data p {
+  margin-bottom: 0px;
+}
+
+.bioModal .modal-dialog .modal-body .flex .data a {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bioModal .modal-dialog .modal-body .flex .data a .linkedin {
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  vertical-align: top;
+  background: url(../img/team/linkedin.png) no-repeat center center;
+  background-size: cover;
+}
+
+.bioModal .modal-dialog .modal-body .flex .data p.small {
+  font-size: 13px;
 }
 /*# sourceMappingURL=style.css.map */

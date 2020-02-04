@@ -9,9 +9,71 @@ function myFunction() {
     }
 }
 
+
+//video intro
+
+function videoEnded(){
+    $('.intro').hide(400);
+    document.cookie = "videostatus=finished";
+    //console.log(document.cookie);
+}
+
+
 $(document).ready(function(){
-    $(".modal .close").click(function(){
-        $(".modal").hide(400);
+    var videoelement = document.createElement("video");
+    videoelement.setAttribute("id", "video1");
+    videoelement.setAttribute("width", "400");
+    videoelement.setAttribute("controls", "");
+    videoelement.setAttribute("autoplay", "");
+    videoelement.setAttribute("muted", "");
+    videoelement.setAttribute("name", "media");
+    videoelement.setAttribute("onended", "videoEnded()");
+    videoelement.setAttribute("onplaying", "onplay()");
+
+    if ($(window).width() < 960) {
+        var sourceMP4 = document.createElement("source"); 
+        sourceMP4.type = "video/mp4";
+        sourceMP4.src = "./img/paradigma-small.mp4";
+        videoelement.appendChild(sourceMP4);
+    
+        var sourceWEBM = document.createElement("source"); 
+        sourceWEBM.type = "video/webm";
+        sourceWEBM.src = "./img/paradigma-small.mp4";
+        videoelement.appendChild(sourceWEBM);
+     }
+     else {
+    
+        var sourceMP4 = document.createElement("source"); 
+        sourceMP4.type = "video/mp4";
+        sourceMP4.src = "./img/paradigma.mp4";
+        videoelement.appendChild(sourceMP4);
+    
+        var sourceWEBM = document.createElement("source"); 
+        sourceWEBM.type = "video/webm";
+        sourceWEBM.src = "./img/paradigma.mp4";
+        videoelement.appendChild(sourceWEBM);
+     }
+
+
+    $('#introVideo').html(videoelement);
+    var video = document.getElementById("video1");
+    document.getElementById('video1').play();
+
+});
+
+
+
+ 
+
+$(document).ready(function(){
+    $('.closeButton').click(function(){
+        $('.intro').hide();
+    });
+    $('#video1').click(function(){
+        $('.playButton').hide();
+    });
+    $(".status .close").click(function(){
+        $(this).hide(400);
         window.location.href = "./";
     });
 
@@ -25,5 +87,9 @@ $(document).ready(function(){
             $(this).removeClass('invalido');
         }
     });
-    
 });
+
+
+
+
+

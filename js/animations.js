@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', () =>{
 		
 	})
 	.add({
+		targets: '.intro',
+		opacity:[0,1],
+		translateY:[-100,0],
+		delay: (el, i) => 10 * i,
+		offset: '-*50',
+	})
+	.add({
 		targets: '.carousel-item > img',
 		opacity:[0,1],
 		translateY:[-100,0],
@@ -20,11 +27,11 @@ document.addEventListener('DOMContentLoaded', () =>{
 		offset: '-*350',
 	})
 	.add({
-		targets: '.holding',
+		targets: '.about',
 		opacity:[0,1],
-		translateY:[-100,0],
+		translateY:[-50,0],
 		delay: (el, i) => 10 * i,
-		offset: '-*200',
+		offset: '-*100',
 	})
 })
 
