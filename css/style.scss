@@ -182,10 +182,15 @@ strong{font-weight:600;}
     .carousel{
         .carousel-inner{
             .carousel-item{
+                height:90vh;
+                img{
+                    height:100%;
+                }
                 .carousel-caption{
-                    top:50px;
+                    bottom:150px;
                     img{
                         margin-bottom:20px;
+                        height:auto;
                     }
                     h1{
                         font-size:$h1;
@@ -220,7 +225,7 @@ strong{font-weight:600;}
             }
         }
         .about{
-            margin-bottom:5vh;
+            margin-bottom:10vh;
             .flex{
                 .image{
                     img{width:100%;}
@@ -309,6 +314,7 @@ strong{font-weight:600;}
             .carousel{
                 .carousel-inner{
                     .carousel-item{
+                        height:150px;
                         .flex{
                             .item{
                                 width:250px;
@@ -355,6 +361,7 @@ strong{font-weight:600;}
                         border:1px solid #999999;
                         margin:10px;
                         text-align:center;
+                        background-color:#fefefe;
                         .inner{
                             padding:30px 0px;
                             span{
@@ -612,17 +619,16 @@ strong{font-weight:600;}
     .playButton{
         cursor:pointer;
         position: absolute;
-        top: 40vh;
-        width: 100px;
-        height: 100px;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
         background-image: url('../img/playButton.png');
         background-position: center;
-        background-size: cover;
+        background-size: 100px;
         background-repeat: no-repeat;
-        left: 40%;
-        right: 40%;
-        display: block;
-        margin: auto;
+        left: 0;
+        right: 0;
+        margin:auto;
     }
     .closeButton{
         cursor: pointer;
@@ -661,7 +667,7 @@ strong{font-weight:600;}
 /* bio modal*/
 .bioModal{
     .modal-dialog{
-        max-width:75vw;
+        max-width:50vw;
         padding-bottom:20px;
         .modal-header{
             border-bottom:none;

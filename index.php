@@ -23,11 +23,11 @@
     <?php 
         $page='home';
     ?>
-    <body class="<?php echo $page;?>-page">
+    <body class="<?php echo $page;?>-page" data-spy="scroll" data-target="#navbarSupportedContent">
         <?php 
-            //if(!isset($_COOKIE['videostatus'])):
+            if(!isset($_COOKIE['videostatus'])):
                 include('includes/theme/intro.php');
-            //endif;
+            endif;
         ?>
         <?php
             if(isset($_GET['status'])){
@@ -56,8 +56,11 @@
 
     <!-- Initialize Firebase 
     <script src="/__/firebase/init.js"></script>-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/anime.js"></script>

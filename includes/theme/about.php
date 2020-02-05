@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about" id="about">
     <div class="flex row">
         <div class="col-sm-6 col-xs-12 image">
             <img src="./img/about/about.png" width="d-block" alt="Grupo Paradigma" />

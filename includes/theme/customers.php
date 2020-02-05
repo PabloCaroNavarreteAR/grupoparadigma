@@ -1,4 +1,4 @@
-<div class="customers">
+<div class="customers" id="customers">
     <h4>Recent customers</h4>
     <div id="customers-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">

@@ -18,7 +18,7 @@ if(isset($_POST['g-recaptcha-response'])){
 
             $contenido='<table width="600" align="center" style="border-radius:10px;border:1px solid #999999;">
             <tr>
-                <td style="text-align:center;" height="50"><img src="https://grupo-paradigma.firebaseapp.com/img/footer/brand.png" width="120" height="auto" alt="Grupo Paradigma" /></td>
+                <td style="text-align:center;" height="50"><img src="https://grupo-paradigma.firebaseapp.com/img/footer/brand-mail.png" width="120" height="auto" alt="Grupo Paradigma" /></td>
             </tr>
             <tr>
                 <td height="30" style="text-align:center;"><h2 style="font-family:Montserrat, sans-serif;font-size:20px;font-weight:normal;">Contacto</h2></td>
@@ -88,7 +88,7 @@ if(isset($_POST['g-recaptcha-response'])){
                 $emailDestino = "p.caronavarrete@gmail.com";
 
                 $mail = new PHPMailer();
-                $mail->SMTPDebug = 2;  
+                //$mail->SMTPDebug = 2;  
                 $mail->IsSMTP();
                 $mail->SMTPAuth = true;
                 $mail->Port = 465; 
@@ -103,10 +103,10 @@ if(isset($_POST['g-recaptcha-response'])){
                 $mail->Password = $smtpClave;
 
                 $mail->From = $smtpUsuario; // Email desde donde envío el correo.
-                $mail->FromName = "Pablo Caro";
+                $mail->FromName = "Grupo Paradigma";
                 $mail->AddAddress($emailDestino); // Esta es la dirección a donde enviamos los datos del formulario
 
-                $mail->Subject = "test"; // Este es el titulo del email.
+                $mail->Subject = "Contacto - Grupo Paradigma"; // Este es el titulo del email.
                 $mensajeHtml = nl2br($contenido);
                 $mail->Body = "{$mensajeHtml}"; // Texto del email en formato HTML
                 $mail->AltBody = "{$contenido}"; // Texto sin formato HTML

@@ -35,43 +35,38 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <?php if($page == 'home'): ?>
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre nosotros</a>
+                            <a class="nav-link" href="#about">Sobre nosotros</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Team work</a>
+                            <a class="nav-link" href="#team">Team work</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Customers</a>
+                            <a class="nav-link" href="#customers">Customers</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
                         </ul>
                         <?php else:?>
                             <ul class="navbar-nav">
                             <li class="nav-item active">
-                            <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="./#top">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="./">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./">Action</a>
-                                <a class="dropdown-item" href="./">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="./">Something else here</a>
-                            </div>
+                            <a class="nav-link" href="./#about">Sobre nosotros</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link disabled" href="./" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="./#team">Team work</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./#customers">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
                         </ul>
                         <?php endif;?>

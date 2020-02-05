@@ -1,4 +1,4 @@
-<div class="team">
+<div class="team" id="team">
     <div class="container">
         <h3>Team work</h3>
         <div class="flex">

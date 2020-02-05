@@ -1,5 +1,5 @@
 <div class="contacto">
-    <div class="container">
+    <div class="container" id="customers">
         <?php include('includes/theme/customers.php');?>
     </div>
     <div class="container">
@@ -30,7 +30,7 @@
     <div class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.8870315730123!2d-58.44975568417601!3d-34.556415562505116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43335020de3%3A0xb462a3e973721395!2sJuramento%201475%2C%20C1428DMQ%20CABA!5e0!3m2!1ses-419!2sar!4v1580311255724!5m2!1ses-419!2sar" width="1920" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
-    <div class="container">
+    <div class="container" id="contacto">
         <div class="contactform">
             <h6>Contáctenos</h6>
             <p>Complete el siguiente formulario y nos pndremos en contacto a la brevedad</p>
