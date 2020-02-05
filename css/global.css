@@ -2,8 +2,24 @@
 /*colores*/
 /*tamaños de titulos*/
 /*colores*/
+img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
 .btn {
   outline: none;
+}
+
+.btn:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  color: white;
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
 }
 
 ul, ol {

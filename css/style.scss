@@ -228,6 +228,7 @@ strong{font-weight:600;}
             margin-bottom:10vh;
             .flex{
                 .image{
+                    padding:20px;
                     img{width:100%;}
                 }
                 .description{
@@ -285,6 +286,10 @@ strong{font-weight:600;}
                             border-radius:200px;
                             img{
                                 width:100%;
+                                &:hover{
+                                    transition:.2s ease-in-out;
+                                    filter:saturate(0.5);
+                                }
                             }
                         }
                     }

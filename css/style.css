@@ -7,8 +7,24 @@
 /*colores*/
 /*tamaños de titulos*/
 /*colores*/
+img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
 .btn {
   outline: none;
+}
+
+.btn:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  color: white;
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
 }
 
 ul, ol {
@@ -307,6 +323,10 @@ strong {
   margin-bottom: 10vh;
 }
 
+.main .container .about .flex .image {
+  padding: 20px;
+}
+
 .main .container .about .flex .image img {
   width: 100%;
 }
@@ -378,6 +398,13 @@ strong {
 
 .main .team .container .flex .item-team .avatar .image img {
   width: 100%;
+}
+
+.main .team .container .flex .item-team .avatar .image img:hover {
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-filter: saturate(0.5);
+          filter: saturate(0.5);
 }
 
 .main .team .container .flex .item-team .description p {
