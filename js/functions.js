@@ -87,6 +87,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.closeButton').click(function(){
         $('.intro').hide();
+        document.cookie = "videostatus=finished";
     });
     $('#video1').click(function(){
         $('.playButton').hide();

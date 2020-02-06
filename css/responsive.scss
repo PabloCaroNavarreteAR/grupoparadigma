@@ -321,10 +321,6 @@ $blueaseo:#5160bf;
                     .flex{
                         .item-info{
                             margin:5px;
-                            width:150px;
-                            &:first-child{
-                                width:300px;
-                            }
                         }
                     }
                 }
@@ -488,6 +484,7 @@ $blueaseo:#5160bf;
                     margin-top:50px;
                     .item-team{
                         width:100px;
+                        margin-bottom:30px;
                         .avatar{
                             width:100%;
                             .image{
@@ -507,20 +504,41 @@ $blueaseo:#5160bf;
             .container{
                 .contactinfo{
                     .flex{
-                        .item-info{
-                            margin:5px;
-                            width:150px;
-                            &:first-child{
-                                width:300px;
-                            }
-                        }
                     }
                 }
             }
         }
     }
+    .bioModal{
+        .modal-dialog{
+            max-width:100%;
+            .modal-content{
+                .modal-body{
+                    .flex{
+                        flex-direction: column;
+                        .data{
+                            width:100%;
+                        }
+                    }
+                }
+            }  
+        }
+    }
 }
 @media screen and (max-width:414px){
+    .intro{
+        .playButton{display:none;}
+        .closeButton{
+            background-size: 50%;
+            background-repeat: no-repeat;
+            right: 20px;
+            display: block;
+            margin: auto;
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 100%;
+        }
+    }
     $h1:28px;
     $p-slide:14px;
     $p-bigger:16px;
@@ -643,9 +661,6 @@ $blueaseo:#5160bf;
                     }
                     .description{
                         padding:10px;
-                        a.btn-inst{
-                            width:150px;
-                        }
                     }
                 }
             }
@@ -679,13 +694,13 @@ $blueaseo:#5160bf;
                 }
                 .flex{
                     margin-top:50px;
-                    display:block;
+                    flex-direction: column;
                     .item-team{
                         &:nth-child(odd){}
                         width:100%;
                         .avatar{
-                            width:150px;
-                            height:150;
+                            width:200px;
+                            height:200px;
                             .image{
                                 width:100%;
                                 height:100%;
@@ -703,14 +718,8 @@ $blueaseo:#5160bf;
             .container{
                 .contactinfo{
                     .flex{
-                        display:block;
-                        .item-info{
-                            margin:5px;
-                            width:100%;
-                            &:first-child{
-                                width:100%;
-                            }
-                        }
+                        
+                        
                     }
                 }
             }
@@ -729,6 +738,7 @@ $blueaseo:#5160bf;
                         }
                     }
                     .right{
+                        padding-bottom:20px;
                         text-align:center;
                         img{
                             width:180px;
@@ -810,7 +820,7 @@ $blueaseo:#5160bf;
                         left:5%;
                         right:5%;
                         a.btn-inst{
-                            width:200px;
+                            width:80%;
                             margin-top:10px;
                             font-size:$p-normal;
                         }
@@ -859,12 +869,15 @@ $blueaseo:#5160bf;
                     .image{
                         overflow: hidden;
                         text-align:center;
-                        img{width:auto!important;height:100%!important;margin:auto;display:block}
+                        img{width:100%!important;height:100%!important;margin:auto;display:block}
                     }
                     .description{
-                        padding:10px;
+                        padding:20px;
+                        text-align:center;
                         a.btn-inst{
-                            width:150px;
+                            width: 80%;
+                            margin: auto;
+                            display: block;
                         }
                     }
                 }
@@ -899,13 +912,13 @@ $blueaseo:#5160bf;
                 }
                 .flex{
                     margin-top:50px;
-                    display:block;
+                    flex-direction: column;
                     .item-team{
                         &:nth-child(odd){}
                         width:100%;
                         .avatar{
-                            width:150px;
-                            height:150;
+                            width:200px;
+                            height:200px;
                             .image{
                                 width:100%;
                                 height:100%;
@@ -923,14 +936,8 @@ $blueaseo:#5160bf;
             .container{
                 .contactinfo{
                     .flex{
-                        display:block;
-                        .item-info{
-                            margin:5px;
-                            width:100%;
-                            &:first-child{
-                                width:100%;
-                            }
-                        }
+                        flex-direction: column;
+                        
                     }
                 }
             }
@@ -1108,9 +1115,11 @@ $blueaseo:#5160bf;
                         margin:auto;
                         .avatar{
                             width:100%;
+                            height:200px;
                             .image{
-                                width:100%;
-                                height:250px;
+                                width:200px;
+                                height:200px;
+                                margin:auto;
                                 img{
                                     
                                 }
@@ -1128,13 +1137,6 @@ $blueaseo:#5160bf;
             .container{
                 .contactinfo{
                     .flex{
-                        .item-info{
-                            margin:5px;
-                            width:100%;
-                            &:first-child{
-                                width:100%;
-                            }
-                        }
                     }
                 }
             }
