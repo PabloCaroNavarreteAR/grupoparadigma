@@ -56,7 +56,7 @@
                     <label>Su mensaje</label>
                 </div>
                 <div class="form-group col-sm-12 col-xs-12 col-lg-12">
-                <div class="g-recaptcha" data-sitekey="6LfdmdQUAAAAAOxJ2n4nTYlXJ9THTdIEd4pgcWPO"></div>
+                <div class="g-recaptcha" data-sitekey="6Ldr4NcUAAAAAMBE01JSblcKwv6DHO7kAqhsmyKg"></div>
                 </div>
                 <div class="form-group col-sm-12 col-xs-12 col-lg-12">
                     <button class="btn btn-gradiente">Enviar mensaje</button>

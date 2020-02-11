@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST['g-recaptcha-response'])){
-    $secret="6LfdmdQUAAAAANPHtmbdlL2U7RR5ETMVVQIr3uNp";
+    $secret="6Ldr4NcUAAAAAC6cR5kpobgsRiAMr38PnJe4pSKH";
     $ip=$_SERVER['REMOTE_ADDR'];
     $capcha=$_POST['g-recaptcha-response'];
     $result=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$capcha."&remoteip=".$ip."");
